@@ -19,7 +19,7 @@ opt.spell = false -- enable spellcheck
 opt.list = false -- Show line number
 opt.number = true -- Show line number
 opt.numberwidth = 2 -- number column width
-opt.signcolumn = "yes" -- always show the sign column
+opt.signcolumn = "no" -- always show the sign column
 opt.relativenumber = false -- Show line number
 opt.showmatch = true -- Highlight matching parenthesis
 opt.foldmethod = "marker" -- Enable folding (default 'foldmarker')
@@ -73,3 +73,6 @@ vim.api.nvim_create_autocmd("BufReadPost", {
     ]])
 	end,
 })
+
+--colorscheme
+vim.cmd("colorscheme cool_name")

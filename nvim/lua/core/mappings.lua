@@ -2,7 +2,7 @@
 local vim, api, fn, g = vim, vim.api, vim.fn, vim.g
 
 -- import our map functions file
-local mappings = require('utils.map')
+local mappings = require("utils.map")
 
 -- dereference all the functions
 -- examples https://github.com/Th3Whit3Wolf/dots/blob/main/private_dot_config/private_nvim/private_lua/private_mapping.lua
@@ -17,27 +17,26 @@ local vmap = mappings.vmap
 local cnoreabbrev = mappings.cnoreabbrev
 local check_back_space = mappings.check_back_space
 
-
 -- Set leader key to space
 g.mapleader = " "
 
 -- Allow misspellings
 --cnoreabbrev "Qa qa"
-cnoreabbrev "Q q"
+cnoreabbrev("Q q")
 --cnoreabbrev "Qall qall"
-cnoreabbrev "Q! q!"
+cnoreabbrev("Q! q!")
 --cnoreabbrev "Qall! qall!"
 --cnoreabbrev "qQ q@"
 --cnoreabbrev "Bd bd"
 --cnoreabbrev "bD bd"
-cnoreabbrev "qw wq"
-cnoreabbrev "Wq wq"
-cnoreabbrev "WQ wq"
-cnoreabbrev "Wq wq"
+cnoreabbrev("qw wq")
+cnoreabbrev("Wq wq")
+cnoreabbrev("WQ wq")
+cnoreabbrev("Wq wq")
 --cnoreabbrev "Wa wa"
-cnoreabbrev "wQ wq"
-cnoreabbrev "W w"
-cnoreabbrev "W! w!"
+cnoreabbrev("wQ wq")
+cnoreabbrev("W w")
+cnoreabbrev("W! w!")
 
 -- Yank from cursor position to end-of-line
 --nnoremap('Y', 'y$')
@@ -71,23 +70,28 @@ nnoremap("<C-s>", ":w<Cr>")
 nnoremap("<Up>", "<Nop>")
 nnoremap("<Down>", "<Nop>")
 nnoremap("<Left>", "<Nop>")
-nnoremap("<Right>","<Nop>")
+nnoremap("<Right>", "<Nop>")
 
 nnoremap("<Leader>,", ":bprev<Cr>")
 nnoremap("<Leader>.", ":bnext<Cr>")
-nnoremap("<Leader>k", ":Telescope buffers<Cr><ESC>")
+nnoremap("<Leader>b", ":Telescope buffers<Cr>")
+nnoremap("<Leader>f", ":Telescope find_files<Cr>")
 nnoremap("<Leader>m", ":Neotree toggle<Cr>")
-
+nnoremap("<Leader>t", ":tabnew<Cr>")
+nnoremap("<Leader>v", ":vsplit<Cr>")
+nnoremap("<Leader>h", ":split<Cr>")
 --toggles (all use alt key + shift)
 nnoremap("<ESC>W", ":set wrap!<Cr>")
 nnoremap("<ESC>L", ":set relativenumber!<Cr>")
+
+--razor open cs
+nnoremap("cs", ":e %.cs<Cr>")
 
 -- Window movement
 --nmap('<c-h>', '<c-w>h')
 --nmap('<c-j>', '<c-w>j')
 --nmap('<c-k>', '<c-w>k')
 --nmap('<c-l>', '<c-w>l')
-
 --nmap("K", 'lua vim.lsp.buf.hover()')
 
 -- Dial mappings (smarrt increment/decrement)

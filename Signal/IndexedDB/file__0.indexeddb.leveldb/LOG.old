@@ -1,0 +1,6 @@
+2024/05/10-18:23:39.359 2d477 Creating DB /home/lucy/.config/Signal/IndexedDB/file__0.indexeddb.leveldb since it was missing.
+2024/05/10-18:23:39.371 2d477 Reusing MANIFEST /home/lucy/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2024/05/10-18:23:39.385 2d475 Level-0 table #5: started
+2024/05/10-18:23:39.393 2d475 Level-0 table #5: 487 bytes OK
+2024/05/10-18:23:39.400 2d475 Delete type=0 #3
+2024/05/10-18:23:39.400 2d475 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

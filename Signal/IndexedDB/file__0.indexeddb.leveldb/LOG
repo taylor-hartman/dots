@@ -1,0 +1,7 @@
+2024/05/10-18:41:38.199 2e72c Reusing MANIFEST /home/lucy/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2024/05/10-18:41:38.199 2e72c Recovering log #4
+2024/05/10-18:41:38.199 2e72c Reusing old log /home/lucy/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/000004.log 
+2024/05/10-18:41:38.218 2e72a Level-0 table #8: started
+2024/05/10-18:41:38.223 2e72a Level-0 table #8: 470 bytes OK
+2024/05/10-18:41:38.229 2e72a Delete type=0 #4
+2024/05/10-18:41:38.229 2e72a Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

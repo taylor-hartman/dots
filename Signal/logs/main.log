@@ -1,0 +1,80 @@
+{"level":30,"time":"2024-05-15T20:00:53.884Z","msg":"crashReporter: enabled"}
+{"level":30,"time":"2024-05-15T20:00:53.885Z","msg":"got fast localeOverride setting null"}
+{"level":30,"time":"2024-05-15T20:00:53.885Z","msg":"app.ready: hour cycle preference: UnknownPreference"}
+{"level":30,"time":"2024-05-15T20:00:53.885Z","msg":"app.ready: preferred system locales: en-US, en"}
+{"level":30,"time":"2024-05-15T20:00:53.885Z","msg":"locale: Supported locales: af-ZA, ar, az-AZ, bg-BG, bn-BD, bs-BA, ca, cs, da, de, el, en, es, et-EE, eu, fa-IR, fi, fr, ga-IE, gl-ES, gu-IN, he, hi-IN, hr-HR, hu, id, it, ja, ka-GE, kk-KZ, km-KH, kn-IN, ko, ky-KG, lt-LT, lv-LV, mk-MK, ml-IN, mr-IN, ms, my, nb, nl, pa-IN, pl, pt-BR, pt-PT, ro-RO, ru, sk-SK, sl-SI, sq-AL, sr, sv, sw, ta-IN, te-IN, th, tl-PH, tr, ug, uk-UA, ur, vi, yue, zh-CN, zh-HK, zh-Hant"}
+{"level":30,"time":"2024-05-15T20:00:53.886Z","msg":"locale: Preferred locales: en-US, en"}
+{"level":30,"time":"2024-05-15T20:00:53.886Z","msg":"locale: Locale Override: null"}
+{"level":30,"time":"2024-05-15T20:00:53.887Z","msg":"locale: Matched locale: en"}
+{"level":40,"time":"2024-05-15T20:00:53.917Z","msg":"intl.onWarn [@formatjs/intl] \"defaultRichTextElements\" was specified but \"message\" was not pre-compiled. \nPlease consider using \"@formatjs/cli\" to pre-compile your messages for performance.\nFor more details see https://formatjs.io/docs/getting-started/message-distribution"}
+{"level":30,"time":"2024-05-15T20:00:53.917Z","msg":"locale: Text info direction for en: ltr"}
+{"level":30,"time":"2024-05-15T20:00:53.917Z","msg":"getSystemTraySetting got value DoNotUseSystemTray"}
+{"level":30,"time":"2024-05-15T20:00:53.917Z","msg":"getSystemTraySetting returning DoNotUseSystemTray"}
+{"level":30,"time":"2024-05-15T20:00:53.918Z","msg":"app ready"}
+{"level":30,"time":"2024-05-15T20:00:53.918Z","msg":"starting version 7.7.0"}
+{"level":30,"time":"2024-05-15T20:00:53.918Z","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2024-05-15T20:00:53.920Z","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2024-05-15T20:00:53.922Z","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2024-05-15T20:00:53.922Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2024-05-15T20:00:53.923Z","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1096,\"height\":651,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#121212\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"enableBlinkFeatures\":\"CSSPseudoDir,CSSLogical\",\"enablePreferredSizeMode\":true,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":true,\"preload\":\"[REDACTED]/preload.bundle.js\",\"backgroundThrottling\":true,\"disableBlinkFeatures\":\"Accelerated2dCanvas,AcceleratedSmallCanvases\"},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":18,\"y\":731}"}
+{"level":30,"time":"2024-05-15T20:00:53.973Z","msg":"spellcheck: user locales: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2024-05-15T20:00:53.973Z","msg":"spellcheck: available spellchecker languages: [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2024-05-15T20:00:53.973Z","msg":"spellcheck: setting languages to: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2024-05-15T20:00:53.975Z","msg":"MainSQL: updateSchema:\n  Current user_version: 1040;\n  Most recent db schema: 1040;\n  SQLite version: 3.42.0;\n  SQLCipher version: 4.5.5 community;\n  (deprecated) schema_version: 460;\n"}
+{"level":30,"time":"2024-05-15T20:00:54.349Z","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2024-05-15T20:00:54.477Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1096,\"height\":651,\"x\":18,\"y\":731}"}
+{"level":30,"time":"2024-05-15T20:00:54.478Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2024-05-15T20:00:54.483Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2024-05-15T20:00:54.829Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2024-05-15T20:00:54.833Z","msg":"System tray service: created"}
+{"level":30,"time":"2024-05-15T20:00:54.834Z","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2024-05-15T20:00:54.834Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-05-15T20:00:54.834Z","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2024-05-15T20:00:54.834Z","msg":"main window is ready-to-show"}
+{"level":30,"time":"2024-05-15T20:00:54.834Z","msg":"showing main window"}
+{"level":30,"time":"2024-05-15T20:00:54.843Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-05-15T20:00:54.848Z","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2024-05-15T20:00:54.849Z","msg":"Finish ensuring permissions in 15ms"}
+{"level":30,"time":"2024-05-15T20:00:54.978Z","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2024-05-15T20:00:54.978Z","msg":"Background throttling enabled because no call is active"}
+{"level":30,"time":"2024-05-15T20:00:56.057Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1096,\"height\":651,\"x\":1126,\"y\":731}"}
+{"level":30,"time":"2024-05-15T20:00:56.057Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2024-05-15T20:00:56.062Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2024-05-15T20:00:56.081Z","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2024-05-15T20:00:56.082Z","msg":"App loaded - time: 2165"}
+{"level":30,"time":"2024-05-15T20:00:56.082Z","msg":"SQL init - time: 90"}
+{"level":30,"time":"2024-05-15T20:00:56.082Z","msg":"Preload - time: 473"}
+{"level":30,"time":"2024-05-15T20:00:56.082Z","msg":"WebSocket connect - time: 204"}
+{"level":30,"time":"2024-05-15T20:00:56.082Z","msg":"Processed count: 166"}
+{"level":30,"time":"2024-05-15T20:00:56.082Z","msg":"Messages per second: 111.55913978494624"}
+{"level":30,"time":"2024-05-15T20:01:02.711Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2024-05-15T20:01:02.712Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-05-15T20:01:10.124Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2024-05-15T20:01:10.124Z","msg":"System tray service: rendering no tray"}
+{"level":40,"time":"2024-05-15T20:01:10.895Z","msg":"OptionalResourceService: loaded emoji-index-en.json from disk"}
+{"level":30,"time":"2024-05-15T20:01:31.587Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2024-05-15T20:01:31.587Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-05-15T20:01:31.673Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2024-05-15T20:01:33.407Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2024-05-15T20:01:33.407Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-05-15T20:04:17.305Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":536,\"height\":651,\"x\":1686,\"y\":731}"}
+{"level":30,"time":"2024-05-15T20:04:17.305Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2024-05-15T20:04:17.316Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2024-05-15T20:04:40.704Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1096,\"height\":651,\"x\":1126,\"y\":731}"}
+{"level":30,"time":"2024-05-15T20:04:40.704Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2024-05-15T20:04:40.715Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2024-05-15T20:06:49.764Z","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2024-05-15T20:06:49.765Z","msg":"maybeRequestCloseConfirmation: Checking to see if close confirmation is needed"}
+{"level":30,"time":"2024-05-15T20:06:49.765Z","msg":"maybeRequestCloseConfirmation: Confirmation dialog shown, waiting for user."}
+{"level":30,"time":"2024-05-15T20:06:49.765Z","msg":"maybeRequestCloseConfirmation: Response received"}
+{"level":30,"time":"2024-05-15T20:06:49.766Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-05-15T20:06:49.766Z","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2024-05-15T20:06:49.812Z","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2024-05-15T20:06:49.816Z","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false,\"hasEventBeenPrevented\":false,\"windowCount\":1,\"mainWindowExists\":true,\"mainWindowIsFullScreen\":false}"}
+{"level":30,"time":"2024-05-15T20:06:49.816Z","msg":"System tray service: markShouldQuit"}
+{"level":30,"time":"2024-05-15T20:06:49.816Z","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2024-05-15T20:06:49.818Z","msg":"main window closed event"}
+{"level":30,"time":"2024-05-15T20:06:49.818Z","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}
+{"level":30,"time":"2024-05-15T20:06:49.818Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2024-05-15T20:06:49.818Z","msg":"will-quit event {\"hasEventBeenPrevented\":false,\"windowCount\":0,\"mainWindowExists\":false}"}
+{"level":30,"time":"2024-05-15T20:06:49.818Z","msg":"quit event {\"hasEventBeenPrevented\":false,\"windowCount\":0,\"mainWindowExists\":false}"}

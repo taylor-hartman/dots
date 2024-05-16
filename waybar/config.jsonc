@@ -55,7 +55,7 @@
     },
 
     "clock": {
-        "format": " {:%R  %a, %b%e}"
+        "format": " {:%R  %a, %b %e}"
     },
 
     "backlight": {
